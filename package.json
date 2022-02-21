@@ -1,0 +1,25 @@
+{
+  "name": "dream-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjlawler/dream-team.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjlawler/dream-team/issues"
+  },
+  "homepage": "https://github.com/pjlawler/dream-team#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
