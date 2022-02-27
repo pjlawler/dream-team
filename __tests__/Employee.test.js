@@ -8,5 +8,4 @@ test('Test to make sure there is data', () => {
     expect(employee.getName()).toBe("Patrick");
     expect(employee.getEmail()).toBe("patlaw777@icloud.com")
     expect(employee.getId()).toBe("3")
-
 })
