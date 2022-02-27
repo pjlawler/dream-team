@@ -1,4 +1,4 @@
-Manager = require('../dist/lib/Manager');
+Manager = require('../lib/Manager');
 
 test('Tests the to make sure the manager data is working', () => {
     const manager = new Manager('Josh Arnold', 'ja@icloud.com', '101a', '218-213-3456');

@@ -1,4 +1,4 @@
-const Employee = require('../dist/lib/Employee');
+const Employee = require('../lib/Employee');
 
 test('Test to make sure there is data', () => {
     
