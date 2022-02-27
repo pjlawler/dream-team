@@ -1,4 +1,4 @@
-Engineer = require('../dist/lib/Engineer');
+Engineer = require('../lib/Engineer');
 
 test('Tests the creation of the Engineer class', () => {
     

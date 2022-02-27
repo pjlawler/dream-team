@@ -1,4 +1,4 @@
-Intern = require('../dist/lib/Intern');
+Intern = require('../lib/Intern');
 
 test('Tests the intern class', () => {
     const intern = new Intern('Pat', 'pat@erau.edu', '101', 'Embry-Riddle');
