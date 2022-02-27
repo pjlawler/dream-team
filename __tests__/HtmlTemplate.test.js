@@ -18,7 +18,7 @@ test('Checks to make sure the html file is created', () => {
     expect(html_template(mock_data)).toEqual(expect.stringContaining('<h3>Intern</h3>'));
     expect(html_template(mock_data)).toEqual(expect.stringContaining('<h2>Johnny Cash</h2>'));
     expect(html_template(mock_data)).toEqual(expect.stringContaining('<p><span>Id: </span>102</p>'));
-    expect(html_template(mock_data)).toEqual(expect.stringContaining('<a href="https://github.com/saustin">saustin</a></p>'));
+    expect(html_template(mock_data)).toEqual(expect.stringContaining('<a href="https://github.com/saustin" target="_blank">saustin</a></p>'));
     expect(html_template(mock_data)).toEqual(expect.stringContaining('<p><span>email: </span><a href="mailto: johndoe@gmail.com">johndoe@gmail.com</a></p>'));
     expect(html_template(mock_data)).toEqual(expect.stringContaining('<p><span>Office Phone: </span>218-213-3456</p>'));
     expect(html_template(mock_data)).toEqual(expect.stringContaining('<p><span>School: </span>Embry-Riddle</p>'));

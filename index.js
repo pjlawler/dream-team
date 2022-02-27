@@ -16,6 +16,7 @@ const prompt_manager = () => {
     ======================
     `);
 
+    // Collects teh data from command line inquiries and then returns an object with that data to be used in the chained .then funciton below
     return inquirer.prompt([{
         name: 'name',
         message: "What is the team manager's name?",
@@ -43,6 +44,7 @@ const prompt_manager = () => {
         default: '(000)000-0000'
     }])
     .then(data => {
+        // Returns a new instance of the manager class with the collected data
         return [new Manager( data.name, data.email, data.id, data.office_number)];
     })
 };
@@ -64,7 +66,7 @@ const prompt_members = (team_members) => {
             name: 'choice',
             message: 'Would you like to add an Engineer or Intern?',
             choices: ['Engineer', 'Intern', "I'm done adding members"],
-            default: 1
+            default: 0
         }
     ]).then(data => {
         return inquirer.prompt([
@@ -126,9 +128,16 @@ const prompt_members = (team_members) => {
 
 // The initialization commands to start the the CLI to get the needed information
 function init() {
+    // Gets the manager data which is retrurned in an array 
     prompt_manager()
+
+    // Gets the remaining team members information which is returned in the same array
     .then(prompt_members)
+
+    // Passes the array with the team memember information to be inserted into the html_template to create an html text string 
     .then(html_template)
+
+    //Writes the html text string to a file named index.html into the dist folder
     .then(html_text => writeFile(html_text));    
 };
 
