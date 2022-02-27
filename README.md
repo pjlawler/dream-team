@@ -16,7 +16,7 @@
 
  GitHub Repository: [https://github.com/pjlawler/dream-team](https://github.com/pjlawler/dream-team) 
 
- Screencastify: [Walkthrough Video](https://drive.google.com/file/d/172uNLYhTsV5V50g1r-78KPscI-hRQ7_u/view)
+ Screencastify: [Walkthrough Video](https://drive.google.com/file/d/1_6jAZPQwfHgOscx9VS6f2ZBkrBH7y0MG/view)
 
  ![Screen Shot](./src/screen-shot.png)
  
