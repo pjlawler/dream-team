@@ -10,11 +10,16 @@
 
  _ _ _
  ## *Description*
- ### This is a Node.js command-line application that takes in information about employess on a software engineering team and then generates an HTML webpage that displays summaries for each person. 
+ ### This application is my submission for the University of Minnesota's Full-Stack Coding Bootcamp Module 10, Object-Oriented Programming, challenge.  We were given the task to create, from scratch, a Node.js command-line application that takes in information about employess on a software engineering team and then generates an HTML webpage that displays summaries for each person.
+ ###    Below are teh links to its GitHub repository location and a video demonstration of it being run.
  
+
+ GitHub Repository: [https://github.com/pjlawler/dream-team](https://github.com/pjlawler/dream-team) 
+
+ Screencastify: [Walkthrough Video](https://drive.google.com/file/d/172uNLYhTsV5V50g1r-78KPscI-hRQ7_u/view)
+
  ![Screen Shot](./src/screen-shot.png)
  
- [GitHub Repository: https://github.com/pjlawler/dream-team](https://github.com/pjlawler/dream-team) 
  _ _ _
  ## *Usage Information*
   This application utilizes Node.js along with the NPM assets Inquirer and Jest.  Inquirer is used to for the command line input and Jest is used for the TDD.
@@ -26,8 +31,8 @@
  
  ## *Questions*
  ###   For questions or comments concerning this project please contact, Patrick J. Lawler, the author, owner and manager the work via either github or email. Links for each are listed below.
- - [github](https://github.com/pjlawler) pjlawler
- - patlaw777@icloud.com
+ - github: [pjlawler](https://github.com/pjlawler)
+ - email: patlaw777@icloud.com
  _ _ _
  ## *License Info*
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  Copyright Ⓒ 2022 Patrick J. Lawler
