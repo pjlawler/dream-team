@@ -11,6 +11,7 @@
  _ _ _
  ## *Description*
  ### This is a Node.js command-line application that takes in information about employess on a software engineering team and then generates an HTML webpage that displays summaries for each person. 
+ 
  ![Screen Shot](./src/screen-shot.png)
  
  [GitHub Repository: https://github.com/pjlawler/dream-team](https://github.com/pjlawler/dream-team) 
