@@ -3,7 +3,7 @@ Intern = require('../lib/Intern');
 test('Tests the intern class', () => {
     const intern = new Intern('Pat', 'pat@erau.edu', '101', 'Embry-Riddle');
     
-    expect(intern.getTitle()).toBe('Intern');
+    expect(intern.getRole()).toBe('Intern');
     expect(intern.getName()).toBe('Pat');
     expect(intern.getEmail()).toBe('pat@erau.edu');
     expect(intern.getId()).toBe('101');
